@@ -1,0 +1,130 @@
+*{
+      padding: 0%;
+      margin: 0%;
+}
+#logo{
+        display: inline-block;
+        float: left;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.7rem;
+        letter-spacing: 0.3rem;
+}
+#navbar{
+      
+          padding: 50px;
+          font-size: 1.2rem;
+          text-align: right;
+      
+      
+      }
+ 
+
+#navbar a{
+           text-decoration: none;
+           font-family: Arial, Helvetica, sans-serif;
+           padding: 15px;
+           color: BLACK;
+}
+#navbar a:hover{
+            color: red;
+            border: 1px solid red;
+
+}
+.content{ 
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 4.7rem;
+         text-align: right;
+         padding: 50px;
+      
+}
+#border{
+        border: 120px solid rgb(255, 98, 0);
+        margin-left: 40px;
+         width: 23%;
+         box-sizing: border-box;
+         border-radius: 150px;
+}
+.image {
+          padding: 40px;
+          margin-top: -170px;
+          margin-left: 100px;
+}
+.image img{
+             width: 58%;
+}
+#box{
+       width: 40%;
+       float: right;
+       padding: 80px;
+       margin-top: -390px;
+       margin-right: 6px;
+      
+       
+}
+.content-1{
+            justify-content: "";
+            position:relative;
+            padding: 60px 50px;
+            background:#f2f2f2;;
+}
+.content-1 h3{
+            font-size: 1.9rem;
+            font-family: Calibri light;
+
+                        
+
+               
+}
+.content-1 p{
+            font-size: 1.2rem ;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 30px;
+            margin-bottom: 80px;
+
+      }
+.content-1 a{
+              color: white;
+              font-family: Arial, Helvetica, sans-serif;
+              letter-spacing: 0.1rem;
+              padding: 13px 40px;
+              background: rgb(255, 98, 0);
+              text-decoration: none;
+              
+} 
+.content-1 a:hover{
+      background: rgba(16, 0, 0, 0.94);
+} 
+.box-1{
+       position: absolute;
+       right: 4%;
+       border: 25px solid rgb(255, 98, 0);
+       width: 7%;
+       height: 70px;
+       margin-top: 130px;  
+       border-radius: 300px;        
+} 
+@media (max-width:100px){
+      
+        
+}
+#footer{
+         background-color: #080707;
+         opacity:80%;
+         height: 250px;
+         margin-top: 300px;
+      
+          
+}     
+#footer p{
+           color: white;
+           text-align: center;
+           padding: 50px 0px 20px;
+          font-family: Verdana;
+}
+a{
+        text-decoration: none;
+
+}
+a:hover{
+         text-decoration: underline;
+}

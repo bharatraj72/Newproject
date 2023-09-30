@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<style>
+    *{
+         padding: 0%;
+         margin: 0%;
+    }
+    @media(max-width:260px){
+        #image::before{
+               width: 110%;
+               position:absolute;
+            
+
+        }
+    }
+    #image::before{
+        content: "";
+        background: url(img2.jpg)center/cover;
+        position:absolute;
+        top: 50px;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+    }
+    #box-1{ 
+            display: flex;
+            position: relative;
+            top: 130px;
+            justify-content: center;
+    }
+    .box{
+        
+        width: 230px;
+        height: 230px;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        background: rgba(255, 255, 255, 0.955);
+    
+        
+
+    }
+    @media (max-width:450px){
+            #box-1{
+                    display: block;
+                    justify-content: center;
+            }
+        }
+
+    img{ 
+        width: 40px;
+        margin-top: 15px;
+        padding: 15px 80px;
+              
+    }
+    h2{
+        text-align: center;
+         color: rgb(255, 111, 0);
+         font-size: 1.3rem;
+         font-family: calibri ;
+         letter-spacing: 0.1rem;
+
+    
+        
+    }
+    p{
+        text-align: center;
+        padding: 10px 10px;
+        font-family: calibri light;
+    
+        
+    }
+    @media(max-width:600px){
+         #footer{
+                  margin-top: 380px;
+
+        }
+    }
+    #footer{
+             margin-top: 351px;
+             position:relative;
+             color: white;
+             background: rgba(0, 0, 0, 0.932);
+            
+
+    }
+    #footer p{
+         padding: 40px 0px 40px;
+         font-family: Verdana;
+     }
+     a{
+          text-decoration: none;
+     }
+     a:hover{
+           text-decoration:underline;
+     }
+</style>
+<body>
+
+    <div id="image">
+            
+    </div >
+    <div id="box-1">
+        <div class="box">
+            <img src="icon1.png">
+            <h2>STRATEGY</h2>
+            <p>Sample text. Click to select the text box.  Background image from</p>
+            
+        </div>
+        <div class="box">\
+            <img src="icon2.png">
+            <h2>UX DESIGN</h2>
+            <p>Sample text. Click to select the text box. Click again or double click to start editing the text</p>
+            
+          </div>
+        </div>
+        <div id="box-1">
+        <div class="box">
+            <img src="icon3.png">
+           <h2>DEVELOPMENT</h2>
+            <p>Sample text. Click to select the text box. Click again or double click to start editing the text</p>
+            
+        </div>
+        <div class="box">
+            <img src="icon4.png">
+            <h2>TESTING</h2>
+            <p>Sample text. Click to select the text box. Click again or double click to start editing the text</p>
+            
+
+    </div>       
+
+    </div>
+</div>
+<div id="footer">
+        <p>Sample text. Click to select the text box. Click again or double<br>click to start editing the text.</p>
+    <p>  © Copyright 2023 IANT SIKAR | Design by <a href="https://instagram.com/bharat_raj_kumawat?igshid=ZD" target="_blank">BHARAT RAJ KUMAWAT</a> </p>
+   
+
+  
+
+</div>
+
+</body>
+</html>
